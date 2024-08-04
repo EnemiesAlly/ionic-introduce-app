@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      ภาพฉันเอง
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="image-container">
+    <ion-img src="../../assets/img/Me.jpg" class="small-image"></ion-img>
+  </div>
+  <br>
+  <ion-button expand="full" shape="round" color="warning" (click)="goToAbout()">
+    เกี่ยวกับฉัน
+  </ion-button>
+  <ion-button expand="full" shape="round" color="success" (click)="goToContact()">
+    ติดต่อฉัน
+  </ion-button>
+</ion-content>
